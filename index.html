@@ -18,30 +18,34 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&family=IBM+Plex+Mono:wght@500&display=swap">
 <link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js')</script>
 </head>
 <body class="bg-paper text-ink font-body pb-14 md:pb-0">
 <a href="#main" class="skip">Skip to content</a>
 
 <header class="border-b border-line bg-panel">
-  <div class="mx-auto flex max-w-5xl items-center justify-between gap-4 px-5 py-4">
-    <p class="font-display text-xl font-semibold leading-none">SBS Driving School</p>
-    <a href="tel:+61431817409" class="hidden min-h-11 items-center gap-2 font-semibold text-accent hover:underline md:inline-flex"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>0431 817 409</a>
+  <div class="mx-auto flex max-w-5xl items-center justify-between gap-6 px-5 py-4">
+    <a href="#main" class="inline-flex min-h-11 items-center leading-none font-display text-xl font-semibold">SBS Driving School</a>
+    <nav aria-label="Main" class="hidden items-center gap-8 md:flex"><a href="#lessons" class="navlink inline-flex min-h-11 min-w-11 items-center justify-center text-ink hover:text-accent">Lessons</a><a href="#reviews" class="navlink inline-flex min-h-11 min-w-11 items-center justify-center text-ink hover:text-accent">Reviews</a><a href="#book" class="navlink inline-flex min-h-11 min-w-11 items-center justify-center text-ink hover:text-accent">Book</a>
+      <a href="tel:+61431817409" class="inline-flex min-h-11 items-center gap-2 px-4 font-semibold transition-colors duration-200 bg-accent text-accent-ink hover:brightness-110"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>0431 817 409</a>
+    </nav>
   </div>
 </header>
 <main id="main" class="mx-auto max-w-5xl px-5">
-<section class="grid gap-10 py-12 md:grid-cols-12 md:py-16">
-  <div class="md:col-span-7">
+<section class="grid gap-12 py-12 md:grid-cols-12 md:py-20">
+  <div class="hero-in md:col-span-7">
     <p class="font-mono text-sm uppercase tracking-wider text-muted">Driving lessons · Hurstville</p>
-    <h1 class="mt-3 font-display text-[2.6rem] font-semibold leading-[1.05] sm:text-6xl">Ask as many questions as you like.</h1>
-    <p class="mt-5 text-lg leading-relaxed text-muted">Patient driving lessons in Hurstville with Sumin and Leela. Rated 5.0 from 79 Google reviews, and great for first-time drivers.</p>
-    <div class="flex flex-wrap gap-3 mt-8">
-  <a href="sms:+61431817409?&body=Hi%20Sumin%2C%20I%27d%20like%20to%20book%20a%20driving%20lesson." class="inline-flex min-h-12 items-center justify-center gap-2 px-6 py-3 font-semibold transition-colors duration-200 cursor-pointer bg-accent text-accent-ink hover:brightness-110"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>Text Sumin to book</a>
-  <a href="tel:+61431817409" class="inline-flex min-h-12 items-center justify-center gap-2 px-6 py-3 font-semibold transition-colors duration-200 cursor-pointer border border-ink/40 bg-panel hover:border-accent hover:text-accent"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>Call 0431 817 409</a>
+    <h1 class="mt-4 font-display font-semibold leading-[1.02] tracking-tight text-[clamp(2.7rem,6vw,4.9rem)]">Ask as many questions as you like.</h1>
+    <p class="mt-6 text-lg leading-relaxed text-muted">Patient driving lessons in Hurstville with Sumin and Leela. Rated 5.0 from 79 Google reviews, and great for first-time drivers.</p>
+    <div class="flex flex-wrap gap-3 mt-9">
+  <a href="sms:+61431817409?&body=Hi%20Sumin%2C%20I%27d%20like%20to%20book%20a%20driving%20lesson." class="btn inline-flex min-h-12 items-center justify-center gap-2 px-6 py-3 font-semibold transition-colors duration-200 cursor-pointer bg-accent text-accent-ink hover:brightness-110"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>Text Sumin to book<svg viewBox="0 0 24 24" aria-hidden="true" class="arrow h-4 w-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+  <a href="tel:+61431817409" class="btn inline-flex min-h-12 items-center justify-center gap-2 px-6 py-3 font-semibold transition-colors duration-200 cursor-pointer border border-ink/40 bg-panel hover:border-accent hover:text-accent"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>Call 0431 817 409</a>
 </div>
   </div>
   <div class="md:col-span-5">
-    <div class="sheet-card">
-      <img src="img/p0-800.webp" srcset="img/p0-800.webp 800w, img/p0-1600.webp 1600w" sizes="(min-width: 768px) 35vw, 100vw" width="1536" height="2048" alt="A student beside the white SBS Driving School Corolla" class="aspect-[4/5] w-full object-cover" style="object-position:50% 40%" fetchpriority="high">
+    <div class="sheet-card rotate-[1.2deg] transition-transform duration-300 hover:rotate-0">
+      <div class="flex items-center justify-between border-b border-line px-5 py-3 font-mono text-sm text-muted"><span>Learner record</span><span>Hurstville</span></div>
+      <div class="zoom overflow-hidden aspect-[4/5] w-full"><img src="img/p0-800.webp" srcset="img/p0-800.webp 800w, img/p0-1600.webp 1600w" sizes="(min-width: 768px) 35vw, 100vw" width="1536" height="2048" alt="A student beside the white SBS Driving School Corolla" class="h-full w-full object-cover" style="object-position:50% 40%" fetchpriority="high"></div>
       <dl class="grid grid-cols-2 gap-x-4 gap-y-3 p-5 font-mono text-sm">
         <div><dt class="text-muted">Instructor</dt><dd class="font-semibold text-ink">Sumin and Leela</dd></div>
         <div><dt class="text-muted">Area</dt><dd class="font-semibold text-ink">Hurstville</dd></div>
@@ -51,68 +55,89 @@
     </div>
   </div>
 </section>
-
-<section class="sheet-paper -mx-5 px-5 py-14 sm:mx-0 sm:px-10" aria-labelledby="assess">
-  <p class="font-mono text-sm uppercase tracking-wider text-muted">Assessment · from real Google reviews</p>
-  <h2 id="assess" class="mt-2 font-display text-3xl font-semibold sm:text-4xl">How Sumin rates</h2>
-  <ol class="mt-6"><li class="grid gap-4 border-b border-line py-7 sm:grid-cols-[3rem_1fr]">
-      <span class="tickbox" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>
+<dl class="grid grid-cols-2 md:grid-cols-4 border border-line bg-panel divide-x divide-line"><div class="border-b border-line md:border-b-0 min-w-0 px-3 py-6 md:px-7"><dt class="font-mono text-sm text-muted">Google rating</dt><dd class="mt-1 whitespace-nowrap font-display text-xl sm:text-2xl font-semibold md:text-3xl">5.0</dd></div><div class="border-b border-line md:border-b-0 min-w-0 px-3 py-6 md:px-7"><dt class="font-mono text-sm text-muted">five-star reviews</dt><dd class="mt-1 whitespace-nowrap font-display text-xl sm:text-2xl font-semibold md:text-3xl">79</dd></div><div class="border-b border-line md:border-b-0 min-w-0 px-3 py-6 md:px-7"><dt class="font-mono text-sm text-muted">your instructor</dt><dd class="mt-1 whitespace-nowrap font-display text-xl sm:text-2xl font-semibold md:text-3xl">Sumin</dd></div><div class="border-b border-line md:border-b-0 min-w-0 px-3 py-6 md:px-7"><dt class="font-mono text-sm text-muted">where lessons run</dt><dd class="mt-1 whitespace-nowrap font-display text-xl sm:text-2xl font-semibold md:text-3xl">Hurstville</dd></div></dl>
+<section id="lessons" class="sheet-paper -mx-5 mt-16 px-5 py-14 sm:mx-0 sm:px-10" aria-labelledby="assess" data-reveal>
+  <div class="flex flex-wrap items-baseline justify-between gap-3 border-b-2 border-ink pb-4">
+    <h2 id="assess" class="font-display text-3xl font-semibold sm:text-4xl">How Sumin rates</h2>
+    <p class="font-mono text-sm uppercase tracking-wider text-muted">Section 1 · from real Google reviews</p>
+  </div>
+  <ol id="reviews"><li class="grid gap-4 border-b border-line py-8 sm:grid-cols-[4.5rem_1fr]">
+      <div class="flex items-center gap-3 sm:block"><span class="tickbox" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><p class="font-mono text-sm text-muted sm:mt-2">1.1</p></div>
       <div>
         <h3 class="text-xl font-semibold">No silly questions <span class="sr-only">: yes</span></h3>
         <blockquote class="mt-2 text-lg leading-relaxed text-muted">“I&#x27;m probably the most annoying student because of how many times I asked the same question to Sumin. But he always answer calmly.”</blockquote>
-        <p class="mt-2 font-mono text-sm text-muted">Cyrene C · Google review</p>
-      </div></li><li class="grid gap-4 border-b border-line py-7 sm:grid-cols-[3rem_1fr]">
-      <span class="tickbox" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>
+        <p class="mt-3 flex items-center gap-3 font-mono text-sm text-muted"><span class="grid h-11 w-11 shrink-0 place-items-center rounded-full text-sm font-bold bg-ink text-panel" aria-hidden="true">CC</span>Cyrene C · Google review</p>
+      </div></li><li class="grid gap-4 border-b border-line py-8 sm:grid-cols-[4.5rem_1fr]">
+      <div class="flex items-center gap-3 sm:block"><span class="tickbox" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><p class="font-mono text-sm text-muted sm:mt-2">1.2</p></div>
       <div>
         <h3 class="text-xl font-semibold">Less stress <span class="sr-only">: yes</span></h3>
         <blockquote class="mt-2 text-lg leading-relaxed text-muted">“They made learning to drive less stressful and always explained things clearly.”</blockquote>
-        <p class="mt-2 font-mono text-sm text-muted">Rid · Google review</p>
-      </div></li><li class="grid gap-4 border-b border-line py-7 sm:grid-cols-[3rem_1fr]">
-      <span class="tickbox" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>
+        <p class="mt-3 flex items-center gap-3 font-mono text-sm text-muted"><span class="grid h-11 w-11 shrink-0 place-items-center rounded-full text-sm font-bold bg-ink text-panel" aria-hidden="true">R</span>Rid · Google review</p>
+      </div></li><li class="grid gap-4 border-b border-line py-8 sm:grid-cols-[4.5rem_1fr]">
+      <div class="flex items-center gap-3 sm:block"><span class="tickbox" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><p class="font-mono text-sm text-muted sm:mt-2">1.3</p></div>
       <div>
         <h3 class="text-xl font-semibold">Lessons built around you <span class="sr-only">: yes</span></h3>
         <blockquote class="mt-2 text-lg leading-relaxed text-muted">“Every lesson was clear, well-structured, and tailored to my needs.”</blockquote>
-        <p class="mt-2 font-mono text-sm text-muted">Pasang L · Google review</p>
-      </div></li><li class="grid gap-4 border-b border-line py-7 sm:grid-cols-[3rem_1fr]">
-      <span class="tickbox" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>
+        <p class="mt-3 flex items-center gap-3 font-mono text-sm text-muted"><span class="grid h-11 w-11 shrink-0 place-items-center rounded-full text-sm font-bold bg-ink text-panel" aria-hidden="true">PL</span>Pasang L · Google review</p>
+      </div></li><li class="grid gap-4 border-b border-line py-8 sm:grid-cols-[4.5rem_1fr]">
+      <div class="flex items-center gap-3 sm:block"><span class="tickbox" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><p class="font-mono text-sm text-muted sm:mt-2">1.4</p></div>
       <div>
         <h3 class="text-xl font-semibold">Passed and confident <span class="sr-only">: yes</span></h3>
         <blockquote class="mt-2 text-lg leading-relaxed text-muted">“He&#x27;s patient, friendly, and explains everything clearly. Thanks to him, I passed my test and feel confident driving.”</blockquote>
-        <p class="mt-2 font-mono text-sm text-muted">Prabein S · Google review</p>
+        <p class="mt-3 flex items-center gap-3 font-mono text-sm text-muted"><span class="grid h-11 w-11 shrink-0 place-items-center rounded-full text-sm font-bold bg-ink text-panel" aria-hidden="true">PS</span>Prabein S · Google review</p>
       </div></li></ol>
   <div class="mt-8 flex flex-col items-start gap-3 sm:flex-row sm:items-center sm:justify-between">
-    <p class="font-mono text-sm font-semibold uppercase tracking-wider text-tick">Result: Recommended</p>
-    <a href="https://www.google.com/maps/place/SBS+Driving+School/@-33.9621543,151.1001651,17z/data=!4m8!3m7!1s0x6b1295c1470c359b:0xadaa49979038d034!8m2!3d-33.9621543!4d151.1001651!9m1!1b1!16s%2Fg%2F1hd_9tp03?hl=en&amp;entry=ttu&amp;g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D" class="inline-flex min-h-11 items-center gap-2 underline underline-offset-4 font-semibold text-accent" rel="noopener">Read all 79 reviews on Google <svg viewBox="0 0 24 24" aria-hidden="true" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    <p class="stamp font-mono text-sm font-semibold uppercase tracking-wider text-tick">Result: Recommended</p>
+    <a href="https://www.google.com/maps/place/SBS+Driving+School/@-33.9621543,151.1001651,17z/data=!4m8!3m7!1s0x6b1295c1470c359b:0xadaa49979038d034!8m2!3d-33.9621543!4d151.1001651!9m1!1b1!16s%2Fg%2F1hd_9tp03?hl=en&amp;entry=ttu&amp;g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D" class="link inline-flex min-h-11 items-center gap-2 underline underline-offset-4 font-semibold text-accent" rel="noopener">Read all 79 reviews on Google <svg viewBox="0 0 24 24" aria-hidden="true" class="arrow h-4 w-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
   </div>
 </section>
-
-<section class="grid gap-5 py-14 sm:grid-cols-2" aria-label="Students who passed"><div><img src="img/p1-800.webp" srcset="img/p1-800.webp 800w, img/p1-1600.webp 1600w" sizes="(min-width: 768px) 30vw, 100vw" width="1600" height="2134" alt="A student holding her P plate in front of the SBS car" class="aspect-[3/4] h-full w-full object-cover" style="object-position:50% 35%" loading="lazy" decoding="async"></div><div><img src="img/p2-800.webp" srcset="img/p2-800.webp 800w, img/p2-1600.webp 1600w" sizes="(min-width: 768px) 30vw, 100vw" width="1600" height="900" alt="The SBS Driving School learner car" class="aspect-[3/4] h-full w-full object-cover" style="object-position:50% 50%" loading="lazy" decoding="async"></div></section>
-
-<section class="grid gap-10 border-t border-line py-14 md:grid-cols-2" aria-labelledby="book">
-  <div>
-    <h2 id="book" class="font-display text-3xl font-semibold sm:text-4xl">Book a lesson</h2>
-    <p class="mt-4 text-lg text-muted">Text your suburb and when you're free, and Sumin will reply with a time.</p>
-    <div class="flex flex-wrap gap-3 mt-8">
-  <a href="sms:+61431817409?&body=Hi%20Sumin%2C%20I%27d%20like%20to%20book%20a%20driving%20lesson." class="inline-flex min-h-12 items-center justify-center gap-2 px-6 py-3 font-semibold transition-colors duration-200 cursor-pointer bg-accent text-accent-ink hover:brightness-110"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>Text Sumin to book</a>
-  <a href="tel:+61431817409" class="inline-flex min-h-12 items-center justify-center gap-2 px-6 py-3 font-semibold transition-colors duration-200 cursor-pointer border border-ink/40 bg-panel hover:border-accent hover:text-accent"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>Call 0431 817 409</a>
-</div>
-    <p class="mt-8 border-l-4 border-tick bg-panel p-4 text-muted">Under 25? Each 1-hour lesson with a licensed driving instructor counts as 3 hours in your NSW logbook, for up to 10 hours of lessons. That's up to 30 logbook hours.</p>
-  </div>
-  <div><h3 class="font-display text-xl font-semibold">Lesson hours</h3><div class="mt-4"><dl class="divide-y border-line border-y border-line"><div class="flex justify-between gap-4 py-3"><dt class="font-semibold">Monday to Friday</dt><dd class="text-right">7am to 7pm</dd></div><div class="flex justify-between gap-4 py-3"><dt class="font-semibold">Sunday</dt><dd class="text-right">7am to 1pm</dd></div><div class="flex justify-between gap-4 py-3"><dt class="font-semibold">Saturday</dt><dd class="text-right">Closed</dd></div></dl></div></div>
-</section>
+<section class="grid gap-5 py-16 sm:grid-cols-2" aria-label="Students who passed" data-reveal><div class="zoom overflow-hidden aspect-[3/4] h-full"><img src="img/p1-800.webp" srcset="img/p1-800.webp 800w, img/p1-1600.webp 1600w" sizes="(min-width: 768px) 30vw, 100vw" width="1600" height="2134" alt="A student holding her P plate in front of the SBS car" class="h-full w-full object-cover" style="object-position:50% 35%" loading="lazy" decoding="async"></div><div class="zoom overflow-hidden aspect-[3/4] h-full"><img src="img/p2-800.webp" srcset="img/p2-800.webp 800w, img/p2-1600.webp 1600w" sizes="(min-width: 768px) 30vw, 100vw" width="1600" height="900" alt="The SBS Driving School learner car" class="h-full w-full object-cover" style="object-position:50% 50%" loading="lazy" decoding="async"></div></section>
+<aside class="mb-16 border-l-4 border-tick bg-panel p-6 text-lg text-muted" data-reveal><p class="font-mono text-sm font-semibold uppercase tracking-wider text-tick">Logbook note</p><p class="mt-2">Under 25? Each 1-hour lesson with a licensed driving instructor counts as 3 hours in your NSW logbook, for up to 10 hours of lessons. That's up to 30 logbook hours.</p></aside>
 </main>
-<footer class="border-t border-line bg-panel">
-  <div class="mx-auto flex max-w-6xl flex-col gap-4 px-5 py-10 sm:flex-row sm:items-end sm:justify-between">
-    <div>
-      <p class="font-display text-xl">SBS Driving School</p>
-      <p class="mt-1">Driving lessons in Hurstville, Sydney · <a class="underline underline-offset-4" href="tel:+61431817409">0431 817 409</a></p>
+<section id="book" class="bg-ink text-panel" aria-labelledby="book-h" data-reveal>
+  <div class="mx-auto max-w-6xl px-5 py-20 md:py-28">
+    <p class="font-mono text-sm uppercase tracking-wider text-panel">Book a lesson</p>
+    <h2 id="book-h" class="mt-4 font-display leading-[0.92] tracking-tight text-[clamp(3rem,10vw,8.5rem)] font-semibold">Learn with Sumin.</h2>
+    <div class="mt-10 grid gap-10 md:grid-cols-2 md:items-end">
+      <div>
+        <p class="max-w-md text-lg">Text your suburb and when you're free. Sumin replies with a lesson time.</p>
+        <div class="flex flex-wrap gap-3 mt-8">
+  <a href="sms:+61431817409?&body=Hi%20Sumin%2C%20I%27d%20like%20to%20book%20a%20driving%20lesson." class="btn inline-flex min-h-12 items-center justify-center gap-2 px-6 py-3 font-semibold transition-colors duration-200 cursor-pointer bg-panel text-ink hover:bg-panel/85"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>Text Sumin to book<svg viewBox="0 0 24 24" aria-hidden="true" class="arrow h-4 w-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+  <a href="tel:+61431817409" class="btn inline-flex min-h-12 items-center justify-center gap-2 px-6 py-3 font-semibold transition-colors duration-200 cursor-pointer border border-panel/60 hover:bg-panel hover:text-ink"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>Call 0431 817 409</a>
+</div>
+      </div>
+      <div><p class="font-semibold">Lesson hours</p><div class="mt-3"><dl class="divide-y border-panel/25 border-y border-panel/25"><div class="flex justify-between gap-4 py-3"><dt class="font-semibold">Monday to Friday</dt><dd class="text-right">7am to 7pm</dd></div><div class="flex justify-between gap-4 py-3"><dt class="font-semibold">Sunday</dt><dd class="text-right">7am to 1pm</dd></div><div class="flex justify-between gap-4 py-3"><dt class="font-semibold">Saturday</dt><dd class="text-right">Closed</dd></div></dl></div></div>
     </div>
-    <p class="text-sm opacity-80">Website preview by Sydney AI Studio</p>
+  </div>
+</section>
+<footer class="bg-ink text-panel">
+  <div class="mx-auto max-w-6xl px-5 pt-14">
+    <div class="grid gap-8 border-b border-panel/20 pb-10 sm:grid-cols-3">
+      <div><p class="text-sm font-semibold uppercase tracking-widest opacity-80">Contact</p>
+        <p class="mt-3"><a class="link inline-flex min-h-11 items-center underline underline-offset-4" href="tel:+61431817409">0431 817 409</a></p>
+        <p><a class="link inline-flex min-h-11 items-center underline underline-offset-4" href="sms:+61431817409?&body=Hi%20Sumin%2C%20I%27d%20like%20to%20book%20a%20driving%20lesson.">Text Sumin</a></p></div>
+      <div><p class="text-sm font-semibold uppercase tracking-widest opacity-80">Hours</p>
+        <p class="mt-3">Monday to Friday<br>7am to 7pm</p><p class="mt-3">Sunday<br>7am to 1pm</p><p class="mt-3">Saturday<br>Closed</p></div>
+      <div><p class="text-sm font-semibold uppercase tracking-widest opacity-80">Area</p>
+        <p class="mt-3">Driving lessons in Hurstville, Sydney</p>
+        <p><a class="link inline-flex min-h-11 items-center underline underline-offset-4" href="https://www.google.com/maps/place/SBS+Driving+School/@-33.9621543,151.1001651,17z/data=!4m8!3m7!1s0x6b1295c1470c359b:0xadaa49979038d034!8m2!3d-33.9621543!4d151.1001651!9m1!1b1!16s%2Fg%2F1hd_9tp03?hl=en&amp;entry=ttu&amp;g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D" rel="noopener">Google reviews</a></p></div>
+    </div>
+    <p class="wordmark select-none py-8 font-display leading-[0.8] tracking-tight text-panel text-[clamp(4rem,17vw,15rem)]" aria-hidden="true">SBS</p>
+    <div class="flex flex-col gap-2 border-t border-panel/20 py-6 text-sm sm:flex-row sm:justify-between">
+      <p>© 2026 SBS Driving School</p><p>Website preview by Sydney AI Studio</p>
+    </div>
   </div>
 </footer>
 <div class="fixed inset-x-0 bottom-0 z-40 grid grid-cols-2 border-t md:hidden border-line bg-panel text-ink" style="padding-bottom:env(safe-area-inset-bottom)">
   <a href="tel:+61431817409" class="flex min-h-14 items-center justify-center gap-2 font-semibold"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>Call</a>
   <a href="sms:+61431817409?&body=Hi%20Sumin%2C%20I%27d%20like%20to%20book%20a%20driving%20lesson." class="flex min-h-14 items-center justify-center gap-2 font-semibold sticky-primary"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>Text Sumin</a>
 </div>
+<script>
+(function(){var els=document.querySelectorAll('[data-reveal]');
+if(!('IntersectionObserver' in window)){els.forEach(function(el){el.classList.add('in')});return}
+var fired=false;var io=new IntersectionObserver(function(es){fired=true;es.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}})},{rootMargin:'0px 0px 10% 0px'});
+els.forEach(function(el){io.observe(el)});
+setTimeout(function(){if(!fired)els.forEach(function(el){el.classList.add('in')})},1500);})();
+</script>
 </body>
 </html>
